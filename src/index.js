@@ -1,2 +1,3 @@
 module.exports = {};
-module.exports.map = require('./fizzBuzz');
+module.exports.fizzBuzz = require('./fizzBuzz');
+module.exports.harmlessRansomNote = require('./harmlessRansomNote');
