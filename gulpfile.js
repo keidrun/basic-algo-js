@@ -67,6 +67,7 @@ gulp.task('build', () => {
 
 gulp.task('watch', () => {
   gulp.watch('src/**/*.js', ['build']);
+  gulp.watch('test/**/*.js', ['build']);
 });
 
 gulp.task('default', callback => {
