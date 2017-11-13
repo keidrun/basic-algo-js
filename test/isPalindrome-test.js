@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
 const isPalindrome = require('../src/isPalindrome');
 
-describe('fizzBuzz-test', () => {
+describe('isPalindrome-test', () => {
   it('should pass this canary test', () => {
     expect(true).to.be.true;
   });
