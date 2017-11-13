@@ -14,7 +14,7 @@ describe('caesarCipher-test', () => {
     expect(caesarCipher('Big Car', -16)).to.eql('Lsq Mkb');
   });
 
-  it("should return 'Bqq Mggrgt' for argument 'Zoo Keeper' and 2", () => {
+  it("should return 'Tkfkcmbszd' for argument 'Zoo Keeper' and -900", () => {
     expect(caesarCipher('Javascript', -900)).to.eql('Tkfkcmbszd');
   });
 });
