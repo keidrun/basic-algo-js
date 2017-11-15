@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/keidrun/basic-algo-js#readme",
   "files": ["src", "dist"],
-  "dependencies": {
+  "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "chai": "^4.1.2",
