@@ -7,3 +7,5 @@ module.exports.reverseArrayInPlace = require('./reverseArrayInPlace');
 module.exports.reverseWords = require('./reverseWords');
 module.exports.meanMedianMode = require('./meanMedianMode');
 module.exports.twoSum = require('./twoSum');
+module.exports.binarySearch = require('./binarySearch');
+module.exports.fibonacci = require('./fibonacci');
