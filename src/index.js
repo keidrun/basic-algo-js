@@ -13,3 +13,4 @@ module.exports.memoizedFibonacci = require('./memoizedFibonacci');
 module.exports.sieveOfEratosthenes = require('./sieveOfEratosthenes');
 module.exports.bubbleSort = require('./bubbleSort');
 module.exports.mergeSort = require('./mergeSort');
+module.exports.maxStockProfit = require('./maxStockProfit');
