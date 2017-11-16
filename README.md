@@ -2,8 +2,8 @@
 
 Basic algorithms library in Javascript
 
-[npm-url]: https://npmjs.org/package/basic-algo-js
-[npm-image]: https://badge.fury.io/js/basic-algo-js.svg
+[npm-url]: https://npmjs.org/package/basic-algo
+[npm-image]: https://badge.fury.io/js/basic-algo.svg
 
 [travis-url]: http://travis-ci.org/keidrun/basic-algo-js
 [travis-image]: https://secure.travis-ci.org/keidrun/basic-algo-js.svg?branch=master

@@ -19,6 +19,6 @@ describe('maxStockProfit-test', () => {
   });
 
   it('should return -1 for argument [9]', () => {
-    expect(maxStockProfit([9])).to.eql(9);
+    expect(maxStockProfit([9])).to.eql(-1);
   });
 });
