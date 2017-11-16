@@ -10,3 +10,4 @@ module.exports.twoSum = require('./twoSum');
 module.exports.binarySearch = require('./binarySearch');
 module.exports.fibonacci = require('./fibonacci');
 module.exports.memoizedFibonacci = require('./memoizedFibonacci');
+module.exports.sieveOfEratosthenes = require('./sieveOfEratosthenes');
