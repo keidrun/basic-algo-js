@@ -44,7 +44,7 @@ gulp.task('minify', ['compile'], () => {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('pre-test', function() {
+gulp.task('pre-test', function () {
   return gulp
     .src('src/**/*.js')
     .pipe(plumber())
@@ -52,13 +52,17 @@ gulp.task('pre-test', function() {
     .pipe(istanbul.hookRequire());
 });
 
-gulp.task('test', ['pre-test'], function() {
+gulp.task('test', ['pre-test'], function () {
   return gulp
     .src('test/*.js')
     .pipe(plumber())
     .pipe(mocha())
     .pipe(istanbul.writeReports())
-    .pipe(istanbul.enforceThresholds({ thresholds: { global: 90 } }));
+    .pipe(istanbul.enforceThresholds({
+      thresholds: {
+        global: 90
+      }
+    }));
 });
 
 gulp.task('build', () => {

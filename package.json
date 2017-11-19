@@ -4,6 +4,7 @@
   "description": "Basic algorithms library in Javascript",
   "main": "src/index.js",
   "scripts": {
+    "start": "gulp",
     "test": "istanbul cover node_modules/mocha/bin/_mocha"
   },
   "repository": {
@@ -25,7 +26,7 @@
     "gulp-babel": "^7.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-istanbul": "^1.1.2",
-    "gulp-mocha": "^4.3.1",
+    "gulp-mocha": "^3.0.1",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^3.0.0",
