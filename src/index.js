@@ -14,4 +14,5 @@ module.exports.sieveOfEratosthenes = require('./sieveOfEratosthenes');
 module.exports.bubbleSort = require('./bubbleSort');
 module.exports.mergeSort = require('./mergeSort');
 module.exports.maxStockProfit = require('./maxStockProfit');
-module.exports.L = require('./LinkedList');
+module.exports.LinkedList = require('./LinkedList');
+module.exports.BinarySearchTree = require('./BinarySearchTree');
