@@ -18,19 +18,7 @@ const DIST_PATH = 'dist',
   SRC_PATH = 'src/**/*.js',
   TEST_PATH = 'test/**/*.js';
 
-gulp.task('lint', () => {
-  return gulp
-    .src(SRC_PATH)
-    .pipe(plumber())
-    .pipe(eslint({
-      useEslintrc: true
-    }))
-    .pipe(eslint.format())
-    .pipe(eslint.failOnError())
-    .pipe(plumber.stop());
-});
-
-gulp.task('clean', ['lint'], callback => {
+gulp.task('clean', callback => {
   return rimraf(DIST_PATH, callback);
 });
 
@@ -62,7 +50,19 @@ gulp.task('minify', ['compile'], () => {
     .pipe(gulp.dest(DIST_PATH));
 });
 
-gulp.task('pre-test', () => {
+gulp.task('lint', () => {
+  return gulp
+    .src(SRC_PATH)
+    .pipe(plumber())
+    .pipe(eslint({
+      useEslintrc: true
+    }))
+    .pipe(eslint.format())
+    .pipe(eslint.failOnError())
+    .pipe(plumber.stop());
+});
+
+gulp.task('pre-test', ['lint'], () => {
   return gulp
     .src(SRC_PATH)
     .pipe(plumber())
