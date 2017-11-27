@@ -18,6 +18,4 @@ const sieveOfEratosthenes = n => {
   }, []);
 };
 
-console.log(sieveOfEratosthenes(20));
-
 module.exports = sieveOfEratosthenes;
