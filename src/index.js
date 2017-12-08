@@ -16,3 +16,4 @@ module.exports.mergeSort = require('./mergeSort');
 module.exports.maxStockProfit = require('./maxStockProfit');
 module.exports.LinkedList = require('./LinkedList');
 module.exports.BinarySearchTree = require('./BinarySearchTree');
+module.exports.HashTable = require('./HashTable');
